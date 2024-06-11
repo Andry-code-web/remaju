@@ -5,9 +5,9 @@
     --letra--banner: "Roboto";
     --letra--parrafo: "Lato";
     --letra-cabezera-color: #000;
-    --bg-cabezera-hover: #ef171e;
+    --bg-cabezera-hover: #66075F;
     --bg--cabezera: #ffffffea;
-    --bg--btn--hover: #fc282f;
+    --bg--btn--hover: #8f0986;
     --color--neuto: #fff;
     --color--subtitle--cuerpo: #b60000;
 }
@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-    width: 8%;
+    width: 6%;
 }
 
 .logo img {
@@ -151,7 +151,8 @@ h2 {
     perspective: 1000px;
 }
 
-.adelante, .atras {
+.adelante,
+.atras {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -172,28 +173,35 @@ h2 {
 }
 
 /* PROMOSIONES */
-.promos{
+.promos {
     width: 100%;
     height: auto;
     padding-bottom: 5rem;
 }
 
-.post{
+.promos h1 {
+    font-family: var(--letra--banner);
+    font-weight: 600;
+    color: var(--bg-cabezera-hover);
+    font-size: 2.8rem;
+}
+
+.post {
     width: 80%;
 }
 
-.promocion{
+.promocion {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
- 
-.promocion img{
+
+.promocion img {
     width: 80%;
     border-radius: 10px;
 }
 
-.promocion a{
+.promocion a {
     width: 40%;
     height: 4vh;
     background-color: var(--bg-cabezera-hover);
@@ -214,35 +222,35 @@ h2 {
 .fotos_perfil a:hover,
 .mas_tarjetas a:hover,
 .redes a:hover,
-.redes_sociales a:hover{
+.redes_sociales a:hover {
     transform: scale(1.05);
     background-color: var(--bg--btn--hover);
 }
 
 /* FOTOS DE PERFIL */
 
-.perfil{
+.perfil {
     width: 100%;
     height: auto;
     padding-bottom: 5rem;
 }
 
-.fotos{
+.fotos {
     width: 80%;
 }
 
-.fotos_perfil{
+.fotos_perfil {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fotos_perfil img{
+.fotos_perfil img {
     width: 80%;
     border-radius: 10px;
 }
 
-.fotos_perfil a{
+.fotos_perfil a {
     width: 25%;
     height: 4vh;
     background-color: var(--bg-cabezera-hover);
@@ -260,28 +268,28 @@ h2 {
 }
 
 /* MAS TARJETAS */
-.tarjetas_presentacion{
+.tarjetas_presentacion {
     width: 100%;
     height: auto;
     margin-bottom: 5rem;
 }
 
-.presentacion{
+.presentacion {
     width: 80%;
 }
 
-.mas_tarjetas{
+.mas_tarjetas {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.mas_tarjetas img{
+.mas_tarjetas img {
     width: 75%;
     border-radius: 10px;
 }
 
-.mas_tarjetas a{
+.mas_tarjetas a {
     width: 40%;
     height: 4vh;
     background-color: var(--bg-cabezera-hover);
@@ -299,13 +307,13 @@ h2 {
 }
 
 /* PORTADAS REDES */
-.portada_redes{
+.portada_redes {
     width: 100%;
     height: auto;
     margin-bottom: 5rem;
 }
 
-.portadas{
+.portadas {
     width: 80%;
 }
 
@@ -315,12 +323,12 @@ h2 {
     align-items: center;
 }
 
-.redes img{
+.redes img {
     width: 70%;
     border-radius: 10px;
 }
 
-.redes a{
+.redes a {
     width: 25%;
     height: 4vh;
     background-color: var(--bg-cabezera-hover);
@@ -339,28 +347,28 @@ h2 {
 
 /* POST REDES */
 
-.post_redes{
+.post_redes {
     width: 100%;
     height: auto;
     margin-bottom: 5rem;
 }
 
-.redes_porst{
+.redes_porst {
     width: 80%;
 }
 
-.redes_porst img{
+.redes_porst img {
     width: 90%;
     border-radius: 10px;
 }
 
-.redes_sociales{
+.redes_sociales {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.redes_sociales a{
+.redes_sociales a {
     width: 40%;
     height: 4vh;
     background-color: var(--bg-cabezera-hover);

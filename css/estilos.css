@@ -29,12 +29,13 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     border-radius: 20px;
-    background: rgb(255,0,0);
-    background: -moz-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,76,125,1) 50%, rgba(255,0,0,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,76,125,1) 50%, rgba(255,0,0,1) 100%);
-    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,76,125,1) 50%, rgba(255,0,0,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#ff0000",GradientType=1);
+    background: #66075F; /* Color inicial */
+    background: -moz-linear-gradient(180deg, #66075F 0%, #330330 50%, #66075F 100%);
+    background: -webkit-linear-gradient(180deg, #66075F 0%, #330330 50%, #66075F 100%);
+    background: linear-gradient(180deg, #66075F 0%, #330330 50%, #66075F 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#66075F",endColorstr="#66075F",GradientType=1);
 }
+
 
 .circle {
     width: 24px;
@@ -75,7 +76,7 @@ header.active {
 }
 
 .logo.active {
-    width: 8%;
+    width: 6%;
 }
 
 .select{
@@ -217,7 +218,7 @@ header.active {
 }
 
 .contratos img {
-    width: 15%;
+    width: 12%;
 }
 
 .contratos a{
